@@ -21,17 +21,11 @@ A 2D side-scrolling platformer built with **Python** and **Pygame**.
 project/
 ├── assets/
 │   ├── Background/
-│   │   └── Blue.png
-│   ├── MainCharacters/
-│   │   └── MaskDude/
-│   │       └── [sprite sheets]
-│   ├── Terrain/
-│   │   └── Terrain.png
-│   └── Traps/
-│       └── Fire/
-│           └── [sprite sheets]
-├── platformer.py  # Main game logic
-└── README.md      # This file
+│   └── ...
+├── docs/
+│   └── img/       # Game screenshots
+├── main.py        # Main game logic
+└── README.md
 ```
 
 ---
@@ -52,7 +46,7 @@ pip install pygame
 ## ▶️ How to Run
 
 ```bash
-python platformer.py
+python main.py
 ```
 
 Make sure all required assets are located inside the `assets/` directory.
@@ -82,9 +76,15 @@ Make sure all required assets are located inside the `assets/` directory.
 
 ## 📸 Screenshots
 
-> *(Add your own screenshots here in `.png` or `.gif` formats)*  
-> Example:
-> ![Gameplay](assets/screenshots/gameplay.png)
+### Gameplay
+
+![Player jumping over hazards in the platformer](docs/img/gameplay-jumping.png)
+
+![Player navigating the platforms](docs/img/gameplay-platforms.png)
+
+### Game over
+
+![Game over screen showing the final score and restart instructions](docs/img/game-over.png)
 
 ---
 
